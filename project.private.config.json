@@ -1,24 +1,32 @@
 {
-    "condition": {
-        "plugin": {
-            "list": []
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "视频调试编译",
+          "pathName": "pages/home-video/index",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
         },
-        "game": {
-            "list": []
-        },
-        "gamePlugin": {
-            "list": []
-        },
-        "miniprogram": {
-            "list": [
-                {
-                    "name": "视频调试编译",
-                    "pathName": "pages/home-video/index",
-                    "query": "",
-                    "scene": null,
-                    "launchMode": "default"
-                }
-            ]
+        {
+          "name": "视频详情调试",
+          "pathName": "pages/detail-video/index",
+          "query": "id=14480854",
+          "scene": null,
+          "launchMode": "default"
         }
+      ]
     }
+  }
 }
