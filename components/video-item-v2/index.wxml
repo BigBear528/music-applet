@@ -1,0 +1,20 @@
+<!--components/video-item-v2/index.wxml-->
+<wxs module="format" src="../../utils/format.wxs"></wxs>
+
+<view class="item">
+	<!-- 图片部分 -->
+	<view class="album">
+		<image src="{{itemInfo.coverUrl}}" class="image" mode="widthFix"></image>
+		<view class="info">
+			<text class="count">
+				{{format.formatCount(itemInfo.playTime)}}
+			</text>
+		</view>
+	</view>
+
+	<!-- 文字部分 -->
+	<view class="content">
+		<view class="title">{{itemInfo.title}}</view>
+		<view class="nickname">{{itemInfo.creator[0].userName}}</view>
+	</view>
+</view>
