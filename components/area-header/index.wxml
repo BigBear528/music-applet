@@ -1,6 +1,6 @@
 <view class="header">
   <view class="title">{{title}}</view>
-  <view class="right" bindtap="handleRightClick">
+  <view class="right" bindtap="handleRightClick" wx:if="{{isShowRight}}">
     <view class="slot">
       <slot></slot>
     </view>
